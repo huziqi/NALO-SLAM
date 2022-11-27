@@ -1,0 +1,11 @@
+--encoder densenet161_bts
+--data_path ./
+--dataset kitti
+--filenames_file ../train_test_inputs/samples_test.txt
+--model_name my_bts_train_150
+--checkpoint_path ./models/my_bts_train_150/model-150000_8x8_dense161
+--input_height 190
+--input_width 1214
+--max_depth 100
+--do_crop
+--do_random_rotate
